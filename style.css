@@ -1,0 +1,68 @@
+/*Default margin padding*/
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+/*Default style for all element*/
+body {
+  background: none repeat scroll 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+/*Main container style*/
+#container {
+  width: 100%;
+  clear: both;
+  padding: 50px 0;
+}
+/*For heading and content box default style*/
+.inner_tracking{
+  width: 98%;
+  max-width: 1140px;
+  margin:auto;
+  text-align: center;
+}
+/*Heading style*/
+.title {
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+/*Content style*/
+.inner_tracking.main {
+  display:flex;
+}
+.child_tracking {
+  width: 25%;
+  color:#fff;
+  padding: 45px 30px;
+  margin: 0 1%;
+  border-radius:15px;
+}
+.child_tracking:nth-child(1) {
+  background-color: #c0392b;
+}
+.child_tracking:nth-child(2) {
+  background-color: #2c3e50;
+}
+.child_tracking:nth-child(3) {
+  background-color: #2980b9;
+}
+.child_tracking:nth-child(4) {
+  background-color: #d35400;
+}
+.child_tracking i {
+  font-size:50px;
+  margin-bottom: 20px;
+
+}
+.child_tracking h5 {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  margin: 0 0 10px;
+}
+.child_tracking p {
+  margin:0;
+}
