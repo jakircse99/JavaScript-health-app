@@ -22,5 +22,5 @@ counters.forEach(counter => {
 let healthCondition = document.querySelector(".health");
 setTimeout(()=>{
   healthCondition.innerText = "You are FIT!"
-}, 2000)
+}, 4000)
 
